@@ -9,14 +9,13 @@
     font-size: smaller;
   }
   .col {
-    text-align: center;
+    font-size: smaller;
   }
+
   #contact-box,
-  #about-box {
-    padding: 5px;
-    margin: 5px;
-    max-width: 80%;
-  }
+  #about-box { 
+    width: 100px;
+  } */
 }
 
 h3 {
@@ -31,16 +30,11 @@ h3 {
   color: rgb(92, 60, 156);
 }
 
-.information {
-  display: flex;
-  justify-content: start;
-}
-
 #contact-box,
 #about-box {
-  max-width: 20%;
-  padding: 15px;
-  margin: 15px;
+  max-width: 150px;
+  padding: 3px;
+  margin: 3px;
   border-radius: 10px;
   box-shadow: var(--shadow);
 }
