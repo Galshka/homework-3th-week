@@ -1,0 +1,61 @@
+:root {
+  --main-color: #ac12d2;
+  --second-color: #0a6485;
+  --shadow: 5px 5px 5px 0px rgba(203, 216, 234, 0.8);
+}
+
+h3 {
+  color: var(--second-color);
+}
+.container {
+}
+.main {
+  text-align: center;
+}
+
+.main a:visited {
+  color: rgb(92, 60, 156);
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+#contact-box,
+#about-box {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+#contact-box {
+  background-color: var(--main-color);
+  color: rgb(255, 255, 255);
+  box-shadow: var(--shadow);
+}
+
+#contact-box a {
+  color: white;
+  text-decoration: none;
+}
+
+#about-box {
+  border: solid 2px var(--main-color);
+}
+
+#about-box a {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+#about-box a:hover,
+#contact-box a:hover {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
