@@ -4,6 +4,21 @@
   --shadow: 5px 5px 5px 0px rgba(203, 216, 234, 0.8);
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: smaller;
+  }
+  .col {
+    text-align: center;
+  }
+  #contact-box,
+  #about-box {
+    padding: 5px;
+    margin: 5px;
+    max-width: 80%;
+  }
+}
+
 h3 {
   color: var(--second-color);
 }
@@ -23,6 +38,7 @@ h3 {
 
 #contact-box,
 #about-box {
+  max-width: 20%;
   padding: 15px;
   margin: 15px;
   border-radius: 10px;
